@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ro">
+<title>Animals</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+<link rel="icon" href="favicon.jpeg" type="image/png">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Lato", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;cursor:pointer}
+body {
+  margin-left: 5px;
+  margin-top: 100px;
+  margin-right: 5px;
+  margin-bottom: 50px;
+}
+a{
+  text-decoration: none;
+}
+#backgroundimage
+{
+   height: auto;
+   left: -8px;
+   margin: 0;
+   height:calc(100% + 16px);
+   width:calc(400px + 16px);
+   padding: 0;
+   position: fixed;
+   top: -8px;
+   width: 100%;
+   z-index: -1;
+   -webkit-filter: blur(10px);
+  -moz-filter: blur(10pxpx);
+ }
+}
+</style>
+<body>
+<img id="backgroundimage" src="lemn1.jpg" border="0" alt="">
+
+
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top w3-white">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-left w3-text-black" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i></a>
+      <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class='fas fa-paw'></i>About Us</a>
+      <a href="voluntariat.html" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class="fa fa-user"></i>Volunteering</a>
+      <a href="animale.html" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class='fas fa-images'></i>Animals up for adoption</a>
+      <a href="proiect.html" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class='fas fa-folder'></i>Future projects</a>
+      <a href="volunteer.html" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class='fas fa-comment-dots'></i>Volunteer Application</a>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-text-black w3-hide w3-hide-large w3-hide-medium">
+      <a href="about.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-paw"></i>About us</a>
+      <a href="voluntariat.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-user"></i>Volunteering</a>
+      <a href="animale.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class='fas fa-images'></i>Animals up for adoption</a>
+      <a href="proiect.html"class="w3-bar-item w3-button"onclick="toggleFunction()"><i class='fas fa-folder'></i>Projects</a>
+      <a href="volunteer.html"class="w3-bar-item w3-button"onclick="toggleFunction()"><i class='fas fa-comment-dots'></i>Volunteer Application</a>
+    </div>
+  </div>
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px;margin-right:250px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:0px" id="showcase">
+    <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-black w3-center"><i class='fas fa-dog'></i><span>ANIMALS UP FOR ADOPTION</span><i class='fas fa-cat'></i></h1>
+  </div>
+
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <a href="talii.html">
+        <img src="catel.jpg" style="width:440px; height:315px" /></a>
+      <h2 class="w3-center"><b><a href="talii.html"><i class='fas fa-dog'></i>Dogs</a></b></h2>
+        </div>
+
+    <div class="w3-half">
+      <a href="pisici.html">
+        <img src="pisica.jpg" style="width:440px; height:315px" /></a>
+      <h2 class="w3-center"><b><a href="pisici.html">Cats</a><i class='fas fa-cat'></i></b></h2>
+         </div>
+  </div>
+</div>
+</body>
+</html>

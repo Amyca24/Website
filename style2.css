@@ -1,0 +1,33 @@
+ul
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+a
+{
+  text-decoration:none;
+}
+ul a
+{
+	list-style: none;
+	margin: 0 20px;
+  display: block;
+	position: relative;
+	padding: 5px;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+.bgimg-1{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url("voluntariat.jpeg") ;
+  min-height: 100%;
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}

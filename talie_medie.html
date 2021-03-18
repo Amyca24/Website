@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<title>Animals up for adpotion</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="universal.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+<link rel="icon" href="favicon.jpeg" type="image/png">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+body{
+  background-image: url(catel2.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+#more {
+  display: none;
+}
+
+#backgroundimage
+{
+   height: auto;
+   left: -8px;
+   margin: 0;
+   height:calc(100% + 16px);
+   width:calc(400px + 16px);
+   padding: 0;
+   position: fixed;
+   top: -8px;
+   width: 102%;
+   z-index: -1;
+   -webkit-filter: blur(6px);
+  -moz-filter: blur(6pxpx);
+ }
+}
+</style>
+<body>
+<img id="backgroundimage" src="lemn.jpeg" border="0" alt="">
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="background-color: black;display:none;z-index:2;width:20%;min-width:200px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-text-white"><i class='fas fa-chevron-right'></i>Close</a>
+  <a href="talii.html" onclick="w3_close()" class="w3-bar-item w3-button w3-text-white"><i class='fas fa-dog'></i>Dogs</a>
+  <a href="pisici.html" onclick="w3_close()" class="w3-bar-item w3-button w3-text-white"><i class='fas fa-cat'></i>Cats</a>
+  <a href="about.html" onclick="w3-close()" class="w3-bar-item w3-button w3-text-white"><i class='fas fa-home'></i>Home</a>
+</nav>
+
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class=" w3-xlarge" style="background-color:black;max-width:1300px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left w3-text-white" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16 w3-xxlarge w3-text-white">Medium dogs</div>
+  </div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="opacity: auto;; max-width:1200px;margin-top:100px">
+
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="caini">
+<!--Rufus-->
+    <div class="w3-third w3-margin-bottom">
+      <img src="rufus_medie.jpeg" alt="Papi" style="width:300px; height:300px">
+      <div class="w3-container w3-clear">
+        <p><b>Rufus</b></p>
+      <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('maiMulte').style.display='block'">Info</button>
+
+    </div>
+    </div>
+    <div id="maiMulte" class="w3-modal">
+      <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-black w3-center w3-padding-32">
+          <span onclick="document.getElementById('maiMulte').style.display='none'"
+         class="w3-button w3-black w3-large w3-display-topright">×</span>
+          <h2><i class='fas fa-dog'></i>RUFUS</h2>
+        </header>
+        <div class="w3-container">
+          <p><lable><b>Age:</b> 3 years old</lable> </p>
+          <p><lable><b>Size:</b> Medium</lable></p>
+          <p><lable><b>Sex:</b> Male</lable> </p>
+          <p><label><b>Traits:</b> Peaceful and friendly</label</p>
+          <p><label><b>Vaccine:</b> Vaccinated</label></p>
+          <p><label>I am Rufus, a sociable friendly dog, but not si energetic. I am 3 and I am medium sized. Usually I am happy but sometimes I get sad. Why? I'm only waiting to taken to a place that I can call "home". I am obedient, a really good listener and loyal. If you want to take me home I promise I won't disappoint you.</label></p>
+
+        </div>
+      </div>
+    </div>
+
+<!--Panda-->
+    <div class="w3-third w3-margin-bottom">
+      <img src="panda_medie.jpeg" alt="Panda" style="width:300px; height:300px">
+      <div class="w3-container w3-clear">
+        <p><b>Panda</b></p>
+      <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('maiMulte1').style.display='block'">Info</button>
+
+    </div>
+    </div>
+    <div id="maiMulte1" class="w3-modal">
+      <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-black w3-center w3-padding-32">
+          <span onclick="document.getElementById('maiMulte1').style.display='none'"
+         class="w3-button w3-black w3-large w3-display-topright">×</span>
+          <h2><i class='fas fa-dog'></i>PANDA</h2>
+        </header>
+        <div class="w3-container">
+          <p><lable><span>Age:</span> 7 years old</lable> </p>
+          <p><lable><b>Size:</b> Medium</lable></p>
+          <p><lable><b>Sex:</b> Female</lable> </p>
+          <p><label><b>Traits:</b> Loyal</label</p>
+          <p><label><b>Vaccine:</b> Vaccinated</label></p>
+          <p><label>I am Pand and I have been saved from the cold streets back in 2015 when I was young. Please adopt me.</label></p>
+
+        </div>
+      </div>
+    </div>
+<!--Wolfie-->
+    <div class="w3-third w3-margin-bottom">
+  <img src="wolfie_medie.jpeg" alt="Wolfie" style="width:300px; height:300px">
+  <div class="w3-container w3-clear">
+    <p><b>Wolfie</b></p>
+  <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('maiMulte2').style.display='block'">Info</button>
+    </div>
+    </div>
+    <div id="maiMulte2" class="w3-modal">
+  <div class="w3-modal-content w3-animate-top w3-card-4">
+    <header class="w3-container w3-black w3-center w3-padding-32">
+      <span onclick="document.getElementById('maiMulte2').style.display='none'"
+     class="w3-button w3-black w3-large w3-display-topright">×</span>
+      <h2><i class='fas fa-dog'></i>WOLFIE</h2>
+    </header>
+    <div class="w3-container">
+            <p><lable><b>Age:</b> 3 years old</lable></p>
+            <p><lable><b>Size:</b> Medium</lable></p>
+            <p><lable><b>Sex:</b> Male</lable></p>
+            <p><label><b>Traits:</b> Playful </label> </p>
+            <p><label><b>Vaccine:</b> Vaccinated.</label></p>
+            <p><label>My name is Wolfie, I will not tell you a news about the fate of puppies born in rural households... puppies are not sterilized, as such, the resulting puppies are thrown in the fields. In conclusion I was saved from certain death, it's your turn to help me find a family, someone who wants to give me a house with love and responsibility. What I can tell you about me is that I am playful and eager for affection.</label</p>
+    </div>
+  </div>
+</div>
+<!-- Second Photo Grid-->
+<div class="w3-row-padding w3-padding-16 w3-center" id="caini">
+<!--Ambra-->
+  <div class="w3-third w3-margin-bottom">
+    <img src="ambra_medie.jpeg" alt="Ambra" style="width:300px; height:300px">
+    <div class="w3-container w3-clear">
+      <p><b>Ambra</b></p>
+    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('maiMulte3').style.display='block'">Info</button>
+  </div>
+  </div>
+  <div id="maiMulte3" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-black w3-center w3-padding-32">
+        <span onclick="document.getElementById('maiMulte3').style.display='none'"
+       class="w3-button w3-black w3-large w3-display-topright">×</span>
+        <h2><i class='fas fa-dog'></i>AMBRA</h2>
+      </header>
+      <div class="w3-container">
+              <p><lable><b>Age:</b> 4 years old</lable></p>
+              <p><lable><b>Size:</b> Medium</lable></p>
+              <p><lable><b>Sex:</b> Female</lable></p>
+              <p><label><b>Traits:</b> Affective</label> </p>
+              <p><label><b>Vaccine:</b> Vaccinated</label></p>
+              <p><label>My name is Ambra, I am a small to medium sized puppy and I will try as much as I can to convince you to take me into your family. I'll start by telling you that I was rescued from the street when I was about 2 years old and have been looking for a family ever since. If you want me, I have the documents, I am sterilized and vaccinated. </label</p>
+      </div>
+    </div>
+  </div>
+<!--Luna-->
+  <div class="w3-third w3-margin-bottom">
+    <img src="luna_medie.jpeg" alt="luna" style="width:300px; height:300px">
+    <div class="w3-container w3-clear">
+      <p><b>Luna</b></p>
+    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('maiMulte4').style.display='block'">Info</button>
+
+  </div>
+  </div>
+  <div id="maiMulte4" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-black w3-center w3-padding-32">
+        <span onclick="document.getElementById('maiMulte4').style.display='none'"
+       class="w3-button w3-black w3-large w3-display-topright">×</span>
+        <h2><i class='fas fa-dog'></i>LUNA</h2>
+      </header>
+      <div class="w3-container">
+        <p><lable><b>Age:</b> 1 year old</lable> </p>
+        <p><lable><b>Size:</b> Medium</lable></p>
+        <p><lable><b>Sex:</b> Female</lable> </p>
+        <p><label><b>Traits:</b> Obedient and energetic.</label</p>
+        <p><label><b>Vaccine:</b> Vaccinated</label></p>
+        <p><label>Luna is about 1 year old, is vaccinated, sterilized and microchipped and is looking for an owner for whom the puppy is a full member of the family. Adoption takes place in or around Timisoara</label></p>
+
+      </div>
+    </div>
+  </div>
+<!--Nadira-->
+  <div class="w3-third w3-margin-bottom">
+<img src="nadira_medie.jpeg" alt="Athos" style="width:300px; height:300px">
+<div class="w3-container w3-clear">
+  <p><b>Nadira</b></p>
+<button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('maiMulte5').style.display='block'">Info</button>
+  </div>
+  </div>
+  <div id="maiMulte5" class="w3-modal">
+<div class="w3-modal-content w3-animate-top w3-card-4">
+  <header class="w3-container w3-black w3-center w3-padding-32">
+    <span onclick="document.getElementById('maiMulte5').style.display='none'"
+   class="w3-button w3-black w3-large w3-display-topright">×</span>
+    <h2><i class='fas fa-dog'></i>NADIRA</h2>
+  </header>
+  <div class="w3-container">
+          <p><lable><b>Age:</b>2 years old</lable></p>
+          <p><lable><b>Size:</b></lable> Medium</p>
+          <p><lable><b>Sex:</b></lable> Female</p>
+          <p><label><b>Traits:</b></label> Loving</p>
+          <p><label><b>Vaccine:</b></label> Vaccinated</p>
+          <p><label> We have been taking care of Nadira since she was a 2-month-old baby, she spent her childhood in the shelter, no one ever asked about her. She is an intelligent, obedient, affectionate dog. Nadira wants to run free in the parks and be with a loving family. If you want to adopt her, call 0731815814 now.</label></p>
+  </div>
+</div>
+</div>
+<!-- Third Photo Grid-->
+<div class="w3-row-padding w3-padding-16 w3-center" id="caini">
+<!--Macy-->
+  <div class="w3-third w3-margin-bottom">
+    <img src="macy_medie.jpeg" alt="Alma" style="width:300px; height:300px">
+    <div class="w3-container w3-clear">
+      <p><b>Macy</b></p>
+    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('maiMulte6').style.display='block'">Info</button>
+
+  </div>
+  </div>
+  <div id="maiMulte6" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-black w3-center w3-padding-32">
+        <span onclick="document.getElementById('maiMulte6').style.display='none'"
+       class="w3-button w3-black w3-large w3-display-topright">×</span>
+        <h2><i class='fas fa-dog'></i>MACY</h2>
+      </header>
+      <div class="w3-container">
+        <p><lable><b>Age:</b></lable> 2 years old</p>
+        <p><lable><b>Size:</b></lable> Mediium</p>
+        <p><lable><b>Sex:</b></lable> Female</p>
+        <p><label><b>Traits:</b></label> Calm</p>
+        <p><label><b>Vaccine:</b></label> Vaccinated</p>
+        <p><label></label>If the world knew it as we know it, it would understand why I say that this beauty is the definition of unconditional love. She lives her life in a shelter with other puppies and every time we enter, Macy is not interested in food, she just wants someone to take her in her arms and caress her and we leave every time with a broken heart because her place is not in the shelter, but in the house, in the park with a wonderful man. If you are interested in Macy contact us.</p>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>

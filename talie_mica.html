@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<title>Animale pentru Adoptie</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="universal.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+<link rel="icon" href="favicon.jpeg" type="image/png">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+body{
+  background-image: url(blanac.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#more {
+  display: none;
+}
+
+#backgroundimage
+{
+   height: auto;
+   left: -8px;
+   margin: 0;
+   height:calc(100% + 16px);
+   width:calc(400px + 16px);
+   padding: 0;
+   position: fixed;
+   top: -8px;
+   width: 102%;
+   z-index: -1;
+   -webkit-filter: blur(6px);
+  -moz-filter: blur(6pxpx);
+ }
+}
+</style>
+<body>
+<img id="backgroundimage" src="lemn.jpeg" border="0" alt="">
+
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="background-color: black;display:none;z-index:2;width:20%;min-width:200px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-text-white"><i class='fas fa-chevron-right'></i>Close</a>
+  <a href="talii.html" onclick="w3_close()" class="w3-bar-item w3-button w3-text-white"><i class='fas fa-dog'></i>Dogs</a>
+  <a href="pisici.html" onclick="w3_close()" class="w3-bar-item w3-button w3-text-white"><i class='fas fa-cat'></i>Cats</a>
+  <a href="about.html" onclick="w3-close()" class="w3-bar-item w3-button w3-text-white"><i class='fas fa-home'></i>Home</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class=" w3-xlarge" style="background-color:black;max-width:1300px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left w3-text-white" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16 w3-xxlarge w3-text-white">Small dogs</div>
+  </div>
+</div>
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="opacity: auto;; max-width:1200px;margin-top:100px">
+
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="caini">
+<!--PAPI-->
+    <div class="w3-third w3-margin-bottom">
+      <img src="papi_mica.jpeg" alt="Papi" style="width:300px; height:300px">
+      <div class="w3-container w3-clear">
+        <p><b>Papi</b></p>
+      <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('maiMulte').style.display='block'">Info</button>
+
+    </div>
+    </div>
+    <div id="maiMulte" class="w3-modal">
+      <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-black w3-center w3-padding-32">
+          <span onclick="document.getElementById('maiMulte').style.display='none'"
+         class="w3-button w3-black w3-large w3-display-topright">×</span>
+          <h2><i class='fas fa-dog'></i>PAPI</h2>
+        </header>
+        <div class="w3-container">
+          <p><lable><b>Age:</b> ≈ 2 years old</lable> </p>
+          <p><lable><b>Size:</b> Small</lable></p>
+          <p><lable><b>Sex:</b> Male</lable> </p>
+          <p><label><b>Traits:</b> Affective and full of life </label</p>
+          <p><label><b>Vaccinee:</b> Vaccinated</label></p>
+          <p><label>Playful boy that is waiting for his loving family! He is one of the newest members of our shelter. He also loves walks and ADORES the leash.</label></p>
+
+        </div>
+      </div>
+    </div>
+
+
+<!--Alma-->
+    <div class="w3-third w3-margin-bottom">
+      <img src="alma_mica.jpeg" alt="Alma" style="width:300px; height:300px">
+      <div class="w3-container w3-clear">
+        <p><b>Alma</b></p>
+      <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('maiMulte1').style.display='block'">Info</button>
+
+    </div>
+    </div>
+    <div id="maiMulte1" class="w3-modal">
+      <div class="w3-modal-content w3-animate-top w3-card-4">
+        <header class="w3-container w3-black w3-center w3-padding-32">
+          <span onclick="document.getElementById('maiMulte1').style.display='none'"
+         class="w3-button w3-black w3-large w3-display-topright">×</span>
+          <h2><i class='fas fa-dog'></i>ALMA</h2>
+        </header>
+        <div class="w3-container">
+          <p><lable><b>Age:</b> Aproximativ 2 ani</lable> </p>
+          <p><lable><b>Size:</b> Small</lable></p>
+          <p><lable><b>Sex:</b> Female</lable> </p>
+          <p><label><b>Traits:</b> Affective and energic</label</p>
+          <p><label><b>Vaccine:</b> Vaccinated</label></p>
+          <p><label>A playful girl that looks for an responsable owner! She has recently been brought in the shelter, she is able to walk in leash, she is obeying and full of energy.</label></p>
+
+        </div>
+      </div>
+    </div>
+<!--Athos-->
+    <div class="w3-third w3-margin-bottom">
+  <img src="athos_mica.jpeg" alt="Athos" style="width:300px; height:300px">
+  <div class="w3-container w3-clear">
+    <p><b>Athos</b></p>
+  <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('maiMulte2').style.display='block'">Info</button>
+    </div>
+    </div>
+    <div id="maiMulte2" class="w3-modal">
+  <div class="w3-modal-content w3-animate-top w3-card-4">
+    <header class="w3-container w3-black w3-center w3-padding-32">
+      <span onclick="document.getElementById('maiMulte2').style.display='none'"
+     class="w3-button w3-black w3-large w3-display-topright">×</span>
+      <h2><i class='fas fa-dog'></i>ATHOS</h2>
+    </header>
+    <div class="w3-container">
+    <p><lable><b>Age:</b>5 years</lable> </p>
+            <p><lable><b>Size:</b> Small</lable></p>
+            <p><lable><b>Sex:</b>Male</lable> </p>
+            <p><label><b>Traits:</b>Sociable and obeying</label</p>
+            <p><label><b>Vaccine:</b>Vaccinated</label></p>
+            <p><label></label>Athos is a small-medium size,he is 2 and he is in our shelter since he has been 1 month. He spent his childhood in the PETS shelter and he want to find some parents because it is unfair for him to spend the rest of his life here. He is so friendly and loving with both humans and dogs.</p>
+    </div>
+  </div>
+</div>
+<!-- Second Photo Grid-->
+<div class="w3-row-padding w3-padding-16 w3-center" id="caini">
+<!--Mickey-->
+  <div class="w3-third w3-margin-bottom">
+    <img src="mickey_mica.jpeg" alt="Mickey" style="width:300px; height:300px">
+    <div class="w3-container w3-clear">
+      <p><b>Mickey</b></p>
+    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('maiMulte3').style.display='block'">Infor</button>
+
+  </div>
+  </div>
+  <div id="maiMulte3" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-black w3-center w3-padding-32">
+        <span onclick="document.getElementById('maiMulte3').style.display='none'"
+       class="w3-button w3-black w3-large w3-display-topright">×</span>
+        <h2><i class='fas fa-dog'></i>MICKEY</h2>
+      </header>
+      <div class="w3-container">
+        <p><lable><b>Age:</b> 9 months </lable> </p>
+        <p><lable><b>Size:</b> Small</lable></p>
+        <p><lable><b>Sex:</b> Male</lable> </p>
+        <p><label><b>Traits:</b> Sociable and obeying</label</p>
+        <p><label><b>Vaccine:</b> Vaccinated</label></p>
+        <p><label>Mickey is one of the sweetest dogs in our shelter. A real star with a strong personality. He only plays with his bigger brothers despite his size. He is such a pure soul. He is the best for families with children.</label></p>
+
+      </div>
+    </div>
+  </div>
+<!--Chip-->
+  <div class="w3-third w3-margin-bottom">
+    <img src="chip_mica.jpeg" alt="Chip" style="width:300px; height:300px">
+    <div class="w3-container w3-clear">
+      <p><b>Chip</b></p>
+    <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('maiMulte4').style.display='block'">Info</button>
+   </div>
+  </div>
+  <div id="maiMulte4" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-black w3-center w3-padding-32">
+        <span onclick="document.getElementById('maiMulte4').style.display='none'"class="w3-button w3-black w3-large w3-display-topright">×</span>
+        <h2><i class='fas fa-dog'></i>CHIP</h2>
+      </header>
+      <div class="w3-container">
+        <p><lable><b>Age:</b> ≈ 3 years old</lable> </p>
+        <p><lable><b>Size:</b> Small</lable></p>
+        <p><lable><b>Sex:</b> Male</lable> </p>
+        <p><label><b>Traits:</b> Playful and obeying</label</p>
+        <p><label><b>Vaccine:</b> Vaccinated</label></p>
+        <p><label> My name is Chip and I promise you will fall in love with me from the first second you will meet me. A long time ago, I had my home but my owners threw me outside, in the middle of the winter. I consider myself lucky though, because now I am here, at PETS shelter. If you want me, I promise I will be the best boy!</label></p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>

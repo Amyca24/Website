@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<title>About us</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="universal.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+<link rel="icon" href="favicon.jpeg" type="image/png">
+<link rel="stylesheet" href="style.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+</style>
+<body>
+
+    <!-- Navbar (sit on top) -->
+  <div class="w3-top w3-white">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-left w3-text-black" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i></a>
+      <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class='fas fa-paw'></i>About Us</a>
+      <a href="voluntariat.html" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class="fa fa-user"></i>Volunteering</a>
+      <a href="animale.html" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class='fas fa-images'></i>Animals up for adoption</a>
+      <a href="proiect.html" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class='fas fa-folder'></i>Future projects</a>
+      <a href="volunteer.html" class="w3-bar-item w3-button w3-hide-small w3-text-black"><i class='fas fa-comment-dots'></i>Volunteer Application</a>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-text-black w3-hide w3-hide-large w3-hide-medium">
+      <a href="about.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-paw"></i>About us</a>
+      <a href="voluntariat.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-user"></i>Volunteering</a>
+      <a href="animale.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class='fas fa-images'></i>Animals up for adoption</a>
+      <a href="proiect.html"class="w3-bar-item w3-button"onclick="toggleFunction()"><i class='fas fa-folder'></i>Projects</a>
+      <a href="volunteer.html"class="w3-bar-item w3-button"onclick="toggleFunction()"><i class='fas fa-comment-dots'></i>Volunteer Application</a>
+    </div>
+  </div>
+
+
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <a href="ANIMALE.html" class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><i class='fas fa-cat'></i> ADOPT NOW <i class='fas fa-dog'></i></a>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">WHY ADOPTION?</h3>
+  <p>We have the intention to offer abandoned animals a chance to a better life through adoption process. Why should I adopt? A lot of people are asking themsleves this.</p>
+      <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="cutu_cutu.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-padding-large">
+      <p>The animals in the shelter have a sad long life behind the bars, with their eyes full of hope that one day, they will find a family. it is not hard to offer a chance to an animal to live a better, full of love life! PETS shelter has hundreds of adoptable pets, that you can come and see at any time of the day. Our shelter is spacious, clean because of our employees and volunteers who put their heart and soul into offering out pets all the comfort. Since 2006, PETS has been housing over 3000 cats and dogs, that are waiting to be taken home and loved.</p>
+    </div>
+    <div class="w3-content w3-container w3-padding-64" id="about">
+      <p></p>
+      <p></p>
+    </div>
+<!--Footer-->
+      <footer class="w3-container w3-padding-64 w3-center ">
+       <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:65px;padding-right:40px">
+         <div class="w3-container">
+           <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('telefon').style.display='block'"><i class="fas fa-phone"></i></button>
+           <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('email').style.display='block'"><i class="fas fa-envelope"></i></button>
+           <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('locatie').style.display='block'"><i class="fas fa-map-marker-alt"></i></button>
+        </div>
+
+         <div id="telefon" class="w3-modal">
+           <div class="w3-modal-content w3-animate-top w3-card-4">
+             <header class="w3-container w3-white w3-center w3-padding-32">
+               <span onclick="document.getElementById('telefon').style.display='none'"class="w3-button w3-white w3-large w3-display-topright">×</span>
+               <h3><i class='fas fa-phone'></i>&ensp;TELEPHONE</h3>
+             </header>
+             <div class="w3-container">
+               <p><lable><b>Telephone:</b> 0735798568</lable> </p>
+               <p><lable><b>Fax:</b> 0735798668</lable> </p>
+
+             </div>
+           </div>
+         </div>
+
+         <div id="email" class="w3-modal">
+           <div class="w3-modal-content w3-animate-top w3-card-4">
+             <header class="w3-container w3-white w3-center w3-padding-32">
+               <span onclick="document.getElementById('email').style.display='none'"class="w3-button w3-white w3-large w3-display-topright">×</span>
+               <h3><i class='fas fa-envelope'></i>&ensp;EMAIL</h3>
+             </header>
+             <div class="w3-container">
+               <p><lable><b>Email:</b> petsshelter@yahoo.com</lable> </p>
+             </div>
+           </div>
+         </div>
+
+         <div id="locatie" class="w3-modal">
+           <div class="w3-modal-content w3-animate-top w3-card-4">
+             <header class="w3-container w3-white w3-center w3-padding-32">
+               <span onclick="document.getElementById('locatie').style.display='none'"class="w3-button w3-white w3-large w3-display-topright">×</span>
+               <h3><i class='fas fa-map-marker-alt'></i>&ensp;LOCATION</h3>
+             </header>
+             <div class="w3-container">
+               <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2785.744977313226!2d21.19272431508138!3d45.71615272461787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47455cf8da48627f%3A0x91480b381e770913!2sCalea+%C8%98agului+136%2C+Timi%C8%99oara!5e0!3m2!1sro!2sro!4v1554045812499!5m2!1sro!2sro" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+             </div>
+           </div>
+         </div>
+
+
+<script>
+
+
+
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal1 = document.getElementById('email');
+var modal2 = document.getElementById('locatie');
+var modal3 = document.getElementById('telefon');
+
+window.onclick = function(event) {
+  if (event.target == modal1) {
+    modal1.style.display = "none";
+  }
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+  if (event.target == modal3) {
+    modal3.style.display = "none";
+  }
+}
+
+
+
+</script>
+
+</body>
+</html>
